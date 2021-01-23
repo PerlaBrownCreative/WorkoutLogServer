@@ -1,1 +1,7 @@
-
+![](testingimages/delete-log.jpg) 
+![](testingimages/get-all-logs.jpg)
+![](testingimages/get-log-by-id.jpg)
+![](testingimages/login.jpg)
+![](testingimages/post-log.jpg)
+![](testingimages/register.jpg)
+![](testingimages/updated-log.jpg)
