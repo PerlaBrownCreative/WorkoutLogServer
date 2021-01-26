@@ -6,12 +6,12 @@ let log = require('./controllers/logcontroller');
 let user = require('./controllers/usercontroller');
 
 sequelize.sync();
+app.use(require('./middleware/headers'));
 app.use(express.json())
 app.use('/test', function (req, res) {
     res.send('This is a message from the test endpoint on the server!');
 });
 app.use('/user', user)
-app.use(require('./middleware/validatesession'));
 app.use('/log', log)
 
 app.listen(3000, function () {
